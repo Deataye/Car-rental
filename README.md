@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Car Rental Platform
+A dynamic web platform built with Next.js to enable users to easily browse and rent cars based on their preferences. The project focuses on seamless navigation, user-friendly interface, and a responsive design to enhance the car rental experience.
 
-## Getting Started
+Table of Contents
+Installation
+Usage
+Folder Structure
+Features
+Technologies Used
+Contributing
+License
+Installation
 
-First, run the development server:
+Clone the repository:
+git clone https://github.com/Deataye/Car-Rental-Platform.git
 
-```bash
+Navigate to the project directory:
+cd Car-Rental-Platform
+
+Install dependencies:
+npm install
+
+Usage
+To run the project locally:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This will start the development server, and the website will be accessible at http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To deploy the website, you can use hosting platforms like Vercel or Netlify which support Next.js applications.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Folder Structure
+Car-Rental-Platform/
+├── public/             # Public assets
+├── src/
+│   ├── components/     # Reusable components (e.g., car listings, navigation)
+│   ├── pages/          # Pages of the application (Home, Car Details, etc.)
+│   ├── assets/         # Images and other static resources
+│   └── styles/         # Custom CSS/SCSS styles
+│
+├── next.config.js      # Next.js configuration
+├── tailwind.config.js  # Tailwind CSS configuration
+├── package.json        # Project metadata and dependencies
+└── README.md           # Project documentation
+Features
+Dynamic Car Listings: Browse cars filtered by categories such as fuel type, transmission, and car make.
+Responsive Design: Optimized for mobile, tablet, and desktop devices.
+Seamless Navigation: Easy-to-use interface for an efficient car rental experience.
+Technologies Used
+Next.js: A React framework for building fast and efficient web applications.
+React: For building interactive user interfaces.
+Tailwind CSS: For styling and creating responsive layouts.
+JavaScript (ES6+): Core language used for development.
+Contributing
+Contributions are welcome! Here's how you can contribute to the project:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Fork the repository.
 
-## Learn More
+Create a new branch:
+git checkout -b feature-branch-name
 
-To learn more about Next.js, take a look at the following resources:
+Commit your changes:
+git commit -m 'Add a new feature or fix'
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Push to the branch:
+git push origin feature-branch-name
+Open a pull request for review.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+License
+This project is licensed under the MIT License.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
